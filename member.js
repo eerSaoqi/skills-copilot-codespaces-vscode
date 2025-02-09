@@ -1,4 +1,7 @@
-function member(){
-    var member = 'member info';
-    console.log(member);
+function skillsMember(){
+    return {
+        "name": "John",
+        "age": 25,
+        "skills": ["Javascript", "React", "Nodejs"]
+    }
 }
